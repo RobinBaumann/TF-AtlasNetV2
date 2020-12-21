@@ -1,0 +1,16 @@
+name: TensorFlow AtlasNetV2
+
+docker_env:
+  image: tf-atlasnetv2-docker
+
+entry_points:
+  main:
+    parameters:
+      data: "data/shape_net/"
+      checkpoint: "ckpts/weights.{epoch:03d}-{val_loss:.2f}.h5"
+      output: "PointAtlas_MLPAdj.h5"
+      experiment: "PointAtlas_MLPAdj"
+      categories: "None"
+      structure: "point"
+      adjustment: "mlp"
+    command: "python train.py --data {data} --structure_type {structure} --adjustment {adjustment} --checkpoint {checkpoint} --categories {categories} --output {output} --experiment {experiment}"

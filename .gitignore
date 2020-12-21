@@ -1,0 +1,10 @@
+data/shape_net/customShapeNet
+data/shape_net/ShapeNet
+data/shape_net/ShapeNetCorev2Normalized
+.ipynb_checkpoints/
+logs/
+mlruns/
+weights
+weights.*
+experiments
+
