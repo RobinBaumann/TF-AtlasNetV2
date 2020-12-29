@@ -11,6 +11,12 @@ This work was created as part of my master's degree at University of Applied Sci
 | Due Date             | June 24, 2020                                                                                 |
 
 
+## Example
+
+The following images contain results of correspondences and reconstructions of elements of the categories `plane` and `chair`.
+
+
+
 ## Sources
 * Paper: [Learning elementary structures for 3D shape generation and matching](https://arxiv.org/abs/1908.04725)
 * Original-Implementation (PyTorch): [AtlasNetV2](https://github.com/TheoDEPRELLE/AtlasNetV2)
