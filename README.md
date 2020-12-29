@@ -15,7 +15,7 @@ This work was created as part of my master's degree at University of Applied Sci
 
 The following images contain results of correspondences and reconstructions of elements of the categories `plane` and `chair`.
 
-![Some example reconstructions with correspondences](img/example_reconstruction.png?raw=true)
+![Some example reconstructions with correspondences](img/example.png?raw=true)
 
 ## Sources
 * Paper: [Learning elementary structures for 3D shape generation and matching](https://arxiv.org/abs/1908.04725)
